@@ -27,6 +27,7 @@ class Solution(object):
             i += 1
         update(sign, num)
         return sum(stack)
+        
     def asteroidCollision(self, asteroids):
         right_ast, left_ast = [], []
         output = []
